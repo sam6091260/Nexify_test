@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.d919d1cb.css",
-    "main.js": "/static/js/main.60c01df2.js",
-    "index.html": "/index.html",
-    "main.d919d1cb.css.map": "/static/css/main.d919d1cb.css.map",
-    "main.60c01df2.js.map": "/static/js/main.60c01df2.js.map"
+    "main.css": "/Nexify_test/static/css/main.d919d1cb.css",
+    "main.js": "/Nexify_test/static/js/main.60c01df2.js",
+    "index.html": "/Nexify_test/index.html",
+    "main.d919d1cb.css.map": "/Nexify_test/static/css/main.d919d1cb.css.map",
+    "main.60c01df2.js.map": "/Nexify_test/static/js/main.60c01df2.js.map"
   },
   "entrypoints": [
     "static/css/main.d919d1cb.css",
