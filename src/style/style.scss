@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #333333;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+    max-width: 100%;    
+    height: auto; }
+
+/* --blank line-- */
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+
+}
+
+.btn-area {
+    display: flex;
+    justify-content: space-between;
+ 
+    .add-btn {
+        background-color: #2e72f1;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+    .save-btn {
+        background-color: #408557;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+    .update-btn {
+        background-color: #cb444b;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+  
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    color: #5a6b87;
+    border-bottom: 1px solid #5a6b87;
+    padding: 32px 64px 16px 0;
+    font-weight: bold;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    color: #5a6b87;
+    margin: 32px 0 16px 0 ;
+}
+
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    input {
+        width: 16%;
+    }
+    input[type="date"] {
+        color:#5a6b87;
+      }
+}
