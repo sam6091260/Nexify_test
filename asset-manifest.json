@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Nexify_test/static/css/main.d919d1cb.css",
-    "main.js": "/Nexify_test/static/js/main.7416adba.js",
+    "main.js": "/Nexify_test/static/js/main.ed204497.js",
     "index.html": "/Nexify_test/index.html",
     "main.d919d1cb.css.map": "/Nexify_test/static/css/main.d919d1cb.css.map",
-    "main.7416adba.js.map": "/Nexify_test/static/js/main.7416adba.js.map"
+    "main.ed204497.js.map": "/Nexify_test/static/js/main.ed204497.js.map"
   },
   "entrypoints": [
     "static/css/main.d919d1cb.css",
-    "static/js/main.7416adba.js"
+    "static/js/main.ed204497.js"
   ]
 }
