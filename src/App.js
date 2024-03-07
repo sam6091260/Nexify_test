@@ -9,13 +9,12 @@ const App = () => {
   const [salary, setSalary] = useState(0);
   const [showInput, setShowInput] = useState(false);
   const [records, setRecords] = useState([]);
+  const apiUrl = process.env.REACT_APP_API_URL;
 
   // 取得API資料
   const fetchRecords = async () => {
     try {
-      const response = await axios.get(
-        "http://nexifytw.mynetgear.com:45000/api/Record/GetRecords"
-      );
+      const response = await axios.get(`${apiUrl}/Record/GetRecords`);
       if (response.data && response.data.Success) {
         setRecords(response.data.Data);
       }
@@ -32,17 +31,14 @@ const App = () => {
     }
 
     try {
-      const response = await axios.post(
-        "http://nexifytw.mynetgear.com:45000/api/Record/SaveRecords",
-        [
-          {
-            Name: name,
-            DateOfBirth: birthday,
-            Salary: parseInt(salary, 10),
-            Address: address,
-          },
-        ]
-      );
+      const response = await axios.post(`${apiUrl}/Record/SaveRecords`, [
+        {
+          Name: name,
+          DateOfBirth: birthday,
+          Salary: parseInt(salary, 10),
+          Address: address,
+        },
+      ]);
 
       if (response.data.Success) {
         fetchRecords();
